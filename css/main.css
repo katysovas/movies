@@ -1,0 +1,83 @@
+body {
+	position: absolute;
+	width:100%;
+	height:100%;
+}
+
+body.modal-open {
+    overflow: visible;
+}
+
+#movies-header{
+	background: url('../assets/top.movies.background.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container{
+	color: #fff;
+}
+
+.masonry { 
+    margin: 1.5em 0;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+
+.js-search {
+	top:20px;
+	width: 100%;
+	font-size: 25px;
+}
+
+.js-search input {
+	padding:8px 15px;
+	border:0px;
+}
+
+.js-search-bar {	
+	width: 100%;
+	color: #000;
+	border-radius: 6px;
+}
+
+.js-search-bar:focus{
+	outline: -webkit-focus-ring-color auto 0px;
+}
+
+.js-wrapper {	
+	top: 300px;
+	padding:35px;
+	position: absolute;	
+	opacity:0;
+}
+
+.js-wrapper .js-movie{
+	display: inline-block;
+    background: #fff;
+    padding: 1em;
+    margin-left:10px;
+    margin-bottom:10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;
+    cursor: pointer;
+}
+
+.js-wrapper .js-movie .image{
+	transition: all 0.4s;
+}
+
+.js-wrapper .js-movie:hover .image{
+	transform: scale(1.05);
+}
+
+.rating{
+	float: right;
+    padding-right: 20px;
+    color: #B7B5B5;
+}
