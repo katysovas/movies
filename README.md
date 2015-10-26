@@ -1,4 +1,6 @@
 # Instant Movie Search
 
-vanilla.js
+A small project using Vanilla.js
+
+demo: http://katysovas.github.io/movies/
 
