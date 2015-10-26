@@ -1,3 +1,4 @@
-# movies
-vanilla.js Movies Search
+# Instant Movie Search
+
+vanilla.js
 
